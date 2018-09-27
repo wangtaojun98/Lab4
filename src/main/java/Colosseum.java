@@ -73,6 +73,11 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        tempPokemon.name = myScan.nextLine();
+
+        tempPokemon.hitPoints = myScan.nextInt();
+        tempPokemon.attackLevel = myScan.nextInt();
+        tempPokemon.defenseLevel = myScan.nextInt();
         return tempPokemon;
     }
 
